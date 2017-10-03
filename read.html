@@ -1,0 +1,109 @@
+<!doctype HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-wdith, initial-scale=1.0" charset="utf-8"/> 
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/myStyle.css" rel="stylesheet" type="text/css"/>
+<title>BootStrap 1</title>
+</head>
+<body>
+@navbar-default-color
+<!--Navagation-->
+<div class="navbar navbar=inverse navbar-static-top">
+    <div class="container">
+        <a href="#" class="navbar-brand">Car Services</a>
+        <!--this is where the collapsable button goes-->
+<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+        </button>
+     <div class="collapse navbar-collapse navHeaderCollapse">
+        <ul class="nav navbar-nav navbar-right">
+    <li class="active"><a href="index.html">Home</a>
+            <li><a href="#">Location</a></li>
+            <li><a href="#Contact" data-toggle="modal">Contact Us</a></li>
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+<!--Dropdown Menu Unordered List-->
+        <ul class="dropdown-menu">
+            <li><a href="#">Ferrari</a></li>
+            <li><a href="#">Lamborghini</a></li>
+            <li><a href="#">Porsche</a></li>
+            <li><a href="#">Bentley</a></li>
+        </ul>
+            </ul>
+    </div>
+</div>
+    <!--Grid-->
+        <div class="container">
+          <div class="row">
+             <div class="col-lg-9">
+                 <div class="panel panel-default">
+                     <div class="panel body"></div>
+                     
+                     
+                     <!--Panel Header-->
+                     <div class="page-header">
+                     <h3>Article/Page header <small>Posted On October 2017</small></h3>
+                     </div>
+                     <img class="featureImg" src="Images/Ferrari.jpeg" width="100%"/>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus, ipsum ut commodo dictum, ipsum quam auctor ex, ac viverra urna diam ut urna. Quisque sit amet libero sed augue venenatis consequat. Sed suscipit tellus vel nibh rhoncus tempor. Aenean vitae sem sed velit bibendum pretium. Proin auctor lorem non dui convallis, a dignissim sapien feugiat. Nullam viverra risus eros, sed cursus nunc euismod ut. Donec gravida mi urna, ut bibendum purus vestibulum ac. Cras vehicula eleifend est at fermentum. Curabitur posuere sit amet quam vitae tristique.</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="modal fade" id="Contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                
+                <!--modal header--> 
+                <div class="modal-header">
+                <h4>Contact Impsum Car Services</h4>
+                    
+                    <!--modal body-->
+                     <div class="modal-body">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor metus, maximus a augue eu, posuere tincidunt turpis. Nulla facilisi. Vivamus vestibulum ultricies suscipit. Cras rutrum mollis magna tempus efficitur. Suspendisse posuere suscipit arcu, et tristique eros imperdiet in. Duis congue congue diam non varius. Donec sagittis urna a massa ullamcorper blandit.</p>
+                     
+                
+                    <!--modal footer-->
+                         <div class="modal-footer">
+                             <a class="btn btn-success">Submit</a>
+                             <a class="btn btn-danger" data-dismiss="modal">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,16 @@
+.page-header {
+    margin-top: 0; /*This removes the gap at the top of the Article header on read.html*/
+}
+
+.page-body {
+    padding-top: 0;
+
+}
+
+.navbar-default-color {
+    color:black
+    
+}
+
+
+
